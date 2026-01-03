@@ -11,7 +11,7 @@ import SwiftUI
 struct DownloadImageWithAsycAwaitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DownloadImageAsyncView()
         }
     }
 }
