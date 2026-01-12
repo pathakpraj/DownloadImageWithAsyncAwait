@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		ADAD6DB12F156C23001A2A93 /* SendableExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAD6DB02F156C23001A2A93 /* SendableExample.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		ADAD6D272EF2EBCC001A2A93 /* DownloadImageWithAsycAwait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadImageWithAsycAwait.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADAD6DB02F156C23001A2A93 /* SendableExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +32,6 @@
 		ADAD6D1E2EF2EBCC001A2A93 = {
 			isa = PBXGroup;
 			children = (
-				ADAD6DB02F156C23001A2A93 /* SendableExample.swift */,
 				ADAD6D292EF2EBCC001A2A93 /* DownloadImageWithAsycAwait */,
 				ADAD6D282EF2EBCC001A2A93 /* Products */,
 			);
@@ -125,7 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAD6DB12F156C23001A2A93 /* SendableExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
