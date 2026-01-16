@@ -17,10 +17,12 @@ class Manager {
 
 @Observable
 class RefreshableViewModel {
-    private(set) var dataArray: [String] = []
-    private(set) var isLoading = true
-    private let manager = Manager()
+    @MainActor private(set) var dataArray: [String] = []
+    @MainActor private(set) var isLoading = true
 
+    @ObservationIgnored let manager = Manager()
+
+    @MainActor 
     func getData() async {
         do {
             self.dataArray = try await manager.downLoadData()
